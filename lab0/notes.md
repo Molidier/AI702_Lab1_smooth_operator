@@ -9,7 +9,7 @@ memory: .contiguous() creates a fresh copy in the correct order. after permute, 
 ### My run ID's
 baseline run: 20261024T061820-aadc7823, in lab0/results/baseline/
 main (core) run i submitted: 20261024T093223-4928d213, in lab0/results/core/. i also did earlier core runs (20261024T062346-a1d29cd4 and 20261024T080539-0047f45f), but i did not submit them.
-transfer run: 20261024T082730-04e3d000, in lab0/results/transfer/
+transfer run: 20261024T093808-34773ffb, in lab0/results/transfer/. i also did an earlier transfer run (20261024T082730-04e3d000), but i did not submit it.
 files i used for my answers: validation_predictions.csv, metrics.json, details.json, raw.npz and settings_used.json
 wrong predictions: in the core run, samples 40 and 263; in the transfer run, samples 135, 414 and 128.
 
@@ -22,7 +22,7 @@ transfer setting: seed 711 instead of 702 (settings_used.json). it changes the d
 
 expectation: most probably validation set results will be different, because train set and validation set will contain different sets of data. that also affects the weights as i stated before. it can affect the validation set accuracy and the misclassified IDs. but the number of data in both sets should remain the same or nearly the same.
 
-comparison (transfer run 20261024T082730-04e3d000):
+comparison (transfer run 20261024T093808-34773ffb):
 accuracy recomputed from the csv: 88/91 = 0.967 (96.70%)
 core was 89/91 = 0.978 (97.80%)
 we can see that the transfer run has one more mistake. my assumption was correct and the misclassified IDs changed from 40 and 263 to 135, 414 and 128.
