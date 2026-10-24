@@ -73,3 +73,16 @@ would detect.
 2. we need to verify that predictions are matched to the correct examples. make sure that row positions correspond to the true labels, or match predictions and true labels using unique example IDs. it detects row alignment and sample selection errors such as wrong, missing or duplicated rows.
 
 credits: numpy and pythorch documentaions
+
+
+Problem 3 Additional experiment
+
+transfer setting: seed 711 instead of 702. it makes the data split changes and the model starts from different initial weights.
+
+expectation: most probably validation set results will be different, because train set and validation set will contain different sets of data. that also affects the wieghts as i stated bedore. it can affect the validation set accuracy and to missclasified IDs. but the number of datat in both sets should remain the same or nearky the same.
+
+comparison:
+accuracy: 88/91=0.967
+core was 89/91=0.978
+we can see that transfer run has one mistake. My aasumption was correct and missclassified ID's changed from 40 and 263 to 135, 414 and 128.
+unit problem still stayed because the seed does not affect the way accuracy was calculated.

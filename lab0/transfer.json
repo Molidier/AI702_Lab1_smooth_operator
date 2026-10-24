@@ -1,0 +1,10 @@
+{
+  "course": "AI702",
+  "release": "ai702-lab0-no-grad-v1-through-0",
+  "lab": 0,
+  "variant": 0,
+  "task": "The baseline split changed. Recompute accuracy from its new prediction file and explain whether the original unit inconsistency remains.",
+  "settings": {
+    "seed": 711
+  }
+}
