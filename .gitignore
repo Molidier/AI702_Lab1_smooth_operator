@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+lab*/results/
+lab*/submission.zip
+lab*/submissions/
+.releases/
+data/
+*.pem
+!.integrity/public_key.pem
+.env
+**/.DS_Store

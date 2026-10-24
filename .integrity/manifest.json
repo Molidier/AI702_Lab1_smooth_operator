@@ -1,0 +1,35 @@
+{
+  "audience": "student",
+  "available_labs": [
+    0
+  ],
+  "course": "AI702",
+  "editable": "labN/student.py, labN/settings.json, labN/notes.md; lab4/repair.py only after its signed transfer",
+  "files": {
+    ".github/copilot-instructions.md": "2fb4c33d1ff0b1db867fc077a84d3b4c97381cbee358f4c07306554550842a9d",
+    ".github/workflows/check.yml": "895c4f6627e9de65d83fed98ca186ffeffc8460808ff970c5a502ce2dfc825fc",
+    ".gitignore": "638f8557f2e52bdba60ed3ca2e3e3c1f9142471768d10dbbd02196176604dba5",
+    ".integrity/public_key.pem": "8a33f040a36cf6ed4f149ba23b0731148332cf2045881d5617fd2a405658f5f7",
+    ".python-version": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+    "AGENTS.md": "2fb4c33d1ff0b1db867fc077a84d3b4c97381cbee358f4c07306554550842a9d",
+    "AI_POLICY.md": "66df08fc00cdae712f3a8dce8f5a22f1e9de486b13e95c1c296bfc4017749af0",
+    "CLAUDE.md": "2fb4c33d1ff0b1db867fc077a84d3b4c97381cbee358f4c07306554550842a9d",
+    "README.md": "31b97bae74304d9ee87a514f9c654f8d9888f907c044ec4a85d27acfe1347468",
+    "lab.py": "7e3ac35666edb719b71932af37f48dd6ba51191f08432cdf821a5072f39e4ad5",
+    "lab0/README.md": "dcc547bfba448fe626c98a75118e25d139791881a73fe112097c551bdfd23162",
+    "lab0/run.py": "da54725a6616697f7fd4666c1eab4c6b193948ffb5954ac02c172e482d1c047d",
+    "lab0/test_lab0.py": "93bdbfb858e6ec4872c7a0de67666645788684875b4874b76fe175d6b0f01dfc",
+    "pyproject.toml": "5364b971852d74afc72aed0c67172f6fb9747c7c265aba3ac2bc9616b62cecfe",
+    "shared/__init__.py": "78b8a6b96734f2e8c573a178951ceab973ae3d61df8104fbc19204fa8a9bf0cf",
+    "shared/common.py": "fe1598170720b0bb130321841996fdd32ebea7b120b683c76d95eec78daf6306",
+    "shared/data.py": "d6355a94b90d5c14cf90cf8ca1b7f419999593af433c051e5ef458ef1ed26362",
+    "shared/evidence.py": "07ce701b8dc306625e643d006a325475130a82df5551efb2ffdb88d9a6fe8b1a",
+    "shared/integrity.py": "364489f3b7c4079449c97459b8e6a7bf9d596dc037777988a8d9f1379f634906",
+    "shared/manual.py": "549a8bd56926289c49dcee825615e528d5e72926c8190810db58cdc0ff2f14cb",
+    "shared/plots.py": "cce9c662bd65b7bc815cd1ba945073dae20e11f0199fe534088a02057cb9ec4b",
+    "shared/training.py": "939190ab0476b1ce76cdd705ffa53a60b2e0ff3f35fb7448a44bd47d4c844d8d",
+    "uv.lock": "32c344994ec0540e9412eb1d67fa9496aace1cc9acd890d4907af8b0ad584b1b"
+  },
+  "format": 1,
+  "release": "ai702-lab0-no-grad-v1-through-0"
+}

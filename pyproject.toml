@@ -1,0 +1,33 @@
+[project]
+name = "ai702-labs"
+version = "0.5.0"
+description = "Eight teaching labs with a simple per-lab layout"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy==2.3.5",
+  "torch==2.10.0",
+  "torchvision==0.25.0",
+  "scikit-learn==1.8.0",
+  "matplotlib==3.10.8",
+  "pandas==2.2.3",
+  "openpyxl==3.1.5",
+  "cryptography==46.0.4",
+  "pytest==9.0.2",
+  "threadpoolctl==3.6.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+torchvision = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
+testpaths = ["lab0", "lab1", "lab2", "lab3", "lab4", "lab5", "lab6", "lab7"]
